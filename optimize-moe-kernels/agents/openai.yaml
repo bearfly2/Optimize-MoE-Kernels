@@ -1,0 +1,4 @@
+interface:
+  display_name: "Optimize MoE Kernels"
+  short_description: "Analyze and optimize routed MoE kernels end to end"
+  default_prompt: "Use $optimize-moe-kernels to analyze this MoE kernel, invoke $tilelang-scalar-optimization for proven scalar-heavy hot paths, and validate correctness and performance."
